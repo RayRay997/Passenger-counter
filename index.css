@@ -1,17 +1,22 @@
 body {
-    background-image: url("yarn.jpeg");
-    background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 110px ;
+    background-image: url("/lehigh-gorge.jpg");
+    background-size: cover ;
+    font-family: Roboto;
+    font-weight: bold;
     text-align: center;
-    height: 100vh;
+    
+    
 }
 
 .container {
-    background: white;
-    max-width: 80%;
+    max-width: 300px;
+    min-width: auto;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5%;
+    text-align: center;
+    padding: 10px;
     margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
 }
 
 h1 {
@@ -26,7 +31,7 @@ h2 {
 }
 
 button {
-    border: 1px solid black;
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -37,14 +42,10 @@ button {
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: red;
 }
 
 #save-btn {
-    background: #1C7947;
-}
-
-#save-el {
-    font-weight: bold;
+    background: black;
 }
 
